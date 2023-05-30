@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Módulo 10</title>
+    <link rel="shortcut icon" href="favicone-pf.png.ico" type="favicon">
+</head>
+<body>
+    
+    <style>
+        body {
+            padding: 25px;
+            background-color: white;
+            color: lightblue;
+            font-size: 25px;
+        }
+        .dark-mode {
+            background-color: lightblue;
+            color: white;
+        }
+        .light-mode {
+            background-color: white;
+            color: lightblue;
+        }
+        #rightButton {
+            margin-left: 80%;
+            background-color: #48d8b9; /* Green */
+            border: none;
+            color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        </style>
+    </head>
+        <h3 id="DarkModetext">Dark Mode is OFF</h3>
+        <button onclick="darkMode()">Darkmode</button>
+        <button onclick="lightMode()">LightMode</button>
+        <script>
+        function darkMode() {
+            var element = document.body;
+            var content = document.getElementById("DarkModetext");
+            element.className ="dark-mode";
+            content.innerText = "Dark Mode is ON";
+        }
+        function lightMode() {
+            var element = document.body;
+            var content = document.getElementById("DarkModetext");
+            element.className = "light-mode";
+            content.innerText = "Dark Mode is OFF";
+        }
+        </script>
+    <style>
+
+        body {
+            background-color: lightblue;
+            color: white;
+            margin-top: 7%;
+            margin-left: 5%;
+        }
+
+        #rightButton {
+            margin-left: 80%;
+            background-color: #48d8b9; /* Green */
+            border: none;
+            color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times serif;
+        }
+    
+    </style> 
+
+<img src="EPF logotipo.png" alt="EPF">
+    <h3>Aluna: Ana Amélia</h3>
+    <h3>Curso: Programador de Informática</h3>
+<br>
+
+<h2>Linguagem SQL</h2>
+<br>
+<p>O<b>SQL é uma linguagem</b>que tem extrema relevância quando o assunto é manipulação de dados no <b> banco</b>o que a torna uma ferramenta essencial para diversas áreas da tecnologia e para quem pretende seguir carreira em alguma delas.</p>
+<br>
+
+<h3>O que é SQL?</h3>
+<br>
+
+<p><b>O SQL é uma linguagem padrão para manipulação de registros em bancos de dados relacionais.</b></p>
+
+
+<p> A sigla SQL vem dos termos em inglês <b> “Structured Query Language”,</b> que podem ser traduzidos para o português como <b>“Linguagem de Consulta Estruturada”. </b></p>
+
+
+<p>Trata-se ainda de uma linguagem declarativa que apresenta sintaxe simples e fácil de ser aprendida até por pessoas iniciantes na área da programação.</p>
+<br>
+
+<h3>Como surgiu o SQL? História e criador!</h3>
+
+
+<p>A linguagem SQL surgiu a partir de um estudo realizado na década de 70 pelo laboratório da IBM. Esse estudo tinha como um de seus objetivos elaborar uma linguagem que fosse capaz de simplificar o gerenciamento de informações em bancos de dados do tipo relacional (baseado em tabelas).</p>
+
+
+<p>Foi aí que surgiu a especificação original do SQL, que foi feita por dois conhecidos cientistas da computação, Donald D. Chamberlim e Raymond F. Boyce. O sucesso da linguagem foi imediato e rapidamente diversos “dialetos” começaram a ser desenvolvidos, o que gerou a necessidade do ANSI (American National Standards Institute) padronizar o seu uso.</p>
+
+
+<p>Assim, o SQL continua sendo usado em grande parte dos bancos de dados relacionais até os dias atuais. Mas, apesar da padronização da linguagem, ainda existem algumas variações utilizadas por diferentes SGBDs (Sistemas Gerenciadores do Bancos de Dados).</p>
+<br>
+
+<h2>Para que serve e onde o SQL é usado?</h2>
+
+
+<p>O SQL é usado para fazer qualquer tipo de manipulação dos registros de um banco de dados. Ou seja, ele serve para criar, inserir, atualizar, excluir e consultar as informações armazenadas na base, além de outras diversas funções mais complexas.</p>
+<br>
+
+<p>Atualmente, vários SGBDs amplamente utilizados no mercado são baseados em SQL. Isso acontece porque bancos do tipo relacional armazenam as informações em estruturas semelhantes a tabelas, permitindo que sejam criadas relações entre elas. A linguagem SQL foi criada justamente para facilitar o gerenciamento de dados armazenados em bancos que seguem esse padrão.</p>
+
+
+
+<h3>Alguns dos principais sistemas que utilizam essa tecnologia são:</h3>
+<br>
+
+<ul>
+
+<li><b>MySQL:</b>criado pela Oracle, é uma opção que oferece serviços gratuitos e pagos;</li>
+<br>
+<li><b>PostgreSQL: </b> muito usado em aplicações web, essa é uma opção gratuita de código aberto;</li>
+<br>
+<li><b>Oracle:</b> conhecido pela sua segurança, esse sistema é um dos mais usados por grandes corporações;</li>
+<br>
+<li><b>SQL Server:</b> desenvolvido pela Microsoft, ele oferece tanto serviços pagos quanto versões gratuitas para download.</li>
+
+</ul>
+
+<h2> Vantagens e desvantagens da linguagem</h2>
+
+<h3>Principais vantagens</h3>
+
+<ul>
+<li><b>Padronização: </b> como dissemos mais acima, o SQL foi padronizado pelo ANSI. Por isso, ela oferece uma ampla documentação e, aprendendo a linguagem, você vai conseguir lidar facilmente com diferentes bancos de dados que a implementam;</li>
+<br>
+
+<li><b>Rápido acesso aos dados: </b>SQL permite a recuperação de múltiplos registros com um único comando, tudo feito de forma rápida e eficiente;</li>
+<br>
+
+<li><b>Portabilidade:</b> o SQL pode ser usado em diversas aplicações para diferentes plataformas;</li>
+<br>
+
+<li><b>Múltiplas visões de dados: </b>com SQL é possível definir diferentes visualizações da estrutura do banco para diferentes pessoas usuárias;</li>
+<br>
+
+<li><b>Linguagem cliente/servidor: </b>com SQL é possível implementar arquitetura cliente-servidor.</li>
+</ul>
+
+
+<h3>Principais desvantagens</h3>
+
+<ul>
+<li><b>Dificuldade com a interface:</b> para quem não está acostumado, a interface de um banco de dados SQL pode ser mais difícil de lidar;</li>
+<li><b>Custo: </b> o custo operacional de alguns serviços oferecidos por bancos que utilizam SQL é caro e dificulta o acesso dos desenvolvedores.</li>
+
+</ul>
+
+<h2>Subconjuntos da linguagem SQL</h2>
+
+<img src="Subconjuntos .png" alt="subconjuntos SQL">
+
+<h3>FONTES</h3>
+<h2><a href="https://blog-betrybe-com.webpkgcache.com/doc/-/s/blog.betrybe.com/sql/">trybe.com</a></h2>
+
+
+
+    <body background="fundo módulo.png"></body>
+</body>
+</html>
